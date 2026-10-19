@@ -8,8 +8,7 @@ MAXIMUM_HEIGHT = 2.72
 
 def take_name():
     """Запрос у пользователя имя"""
-    user_name = input("Как вас зовут? ")
-    return user_name
+    return input("Как вас зовут? ")
 
 
 def take_age(user_name):
